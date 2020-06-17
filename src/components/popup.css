@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+.pop-up {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #4b2e83;
+    flex: 1;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pop-up p {
+     padding-top: 30%;
+     font-weight: bold; 
+     letter-spacing: -1px; 
+     line-height: 1.8; 
+     text-align: center; 
+}
+
+@media only screen and (min-width: 600px) {
+    .pop-up p {
+        font-size: 1.6em;
+        padding-top: 22%; 
+  }
+  
+}
+
+@media only screen and (min-width: 800px) {
+    .pop-up p {
+        font-size: 1.3em;
+        padding-top: 30%; 
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+    .pop-up p {
+        font-size: 1.8em;
+        padding-top: 40%; 
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    .pop-up p {
+        font-size: 1.8em;
+        padding-top: 20%; 
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+    .pop-up p {
+        font-size: 1.8em;
+        padding-top: 30%; 
+  }
+}
+@media only screen and (min-width: 1500px) {
+    .pop-up p {
+        font-size: 1.8em;
+        padding-top: 30%; 
+  }
+}
+@media only screen and (min-width: 2000px) {
+    .pop-up p {
+        font-size: 1.8em;
+        padding-top: 20%; 
+  }
+}
