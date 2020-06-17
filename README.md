@@ -1,8 +1,8 @@
 Instructions:
-cd backend
-npm run server
-cd ..
-npm run start
+<span>cd backend</span>
+<span>npm run server</span>
+<span>cd ..</span>
+<span>npm run start</span>
 
 /*before deploying, base url in the backend code needs to be changed*/
 
