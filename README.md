@@ -1,9 +1,9 @@
 Instructions:<br/>
 npm install<br/>
 cd backend<br/>
-npm run server<br/>
+nodemon server<br/>
 cd ..<br/>
-npm run start<br/>
+nodemon start<br/>
 
 /*before deploying, base url in the backend code needs to be changed*/
 
