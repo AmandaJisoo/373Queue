@@ -3,36 +3,37 @@
     font-family: 'Noto Sans KR', sans-serif;
     color: #4b2e83;
     flex: 1;
-    font-size: 1.2em;
+    font-size: 1em;
+    display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; 
 }
 
-.pop-up p {
-     padding-top: 30%;
-     font-weight: bold; 
-     letter-spacing: -1px; 
-     line-height: 1.8; 
-     text-align: center; 
+div.pop-up p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 410px) {
     .pop-up p {
-        font-size: 1.6em;
-        padding-top: 22%; 
+        font-size: 1.2em; 
   }
   
 }
 
 @media only screen and (min-width: 800px) {
     .pop-up p {
-        font-size: 1.3em;
-        padding-top: 30%; 
+        font-size: 1.5em; 
   }
 }
-
+/*
 @media only screen and (min-width: 1000px) {
     .pop-up p {
         font-size: 1.8em;
@@ -63,5 +64,5 @@
     .pop-up p {
         font-size: 1.8em;
         padding-top: 20%; 
-  }
-}
+  } 
+}*/
