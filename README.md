@@ -1,4 +1,4 @@
-Instructions:
+Instructions:<br/>
 npm install<br/>
 cd backend<br/>
 npm run server<br/>
